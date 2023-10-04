@@ -1,12 +1,26 @@
 <!DOCTYPE html>
 <html>
     <head>
+
+        <style>
+
+        table,th,td{
+
+            border: 1px solid black;
+
+        } 
+        
+
+
+        </style>
+
         <title>
             HTML Course
         </title>
     </head>
     <body dir="rtl">
        <h1>دورة HTML</h1> <!--title-->
+       <img src="download (1).jpg" height="300" width="600" alt="HTML logo">
        <H2>وصف الدورة</H2> <!--sub title-->
       <p> <!--Description-->
         سنتعرف في هذهِ  <strong>Course</strong>الدورة على أساسيات  <b> <i>HTML</i></b> وعلى طريقة استخدامها في إنشاء صفحات الويب.
@@ -43,5 +57,85 @@
 
 </p>
 
+<video width="700" height="500" src="pexels_videos_2278095 (1080p).mp4"  controls>
+    
+    Sorry this video cannot be displayed
+
+</video>
+
+<audio controls src="ElevenLabs_2023-10-04T22_51_25_Clyde_pre_s50_sb75_m1.mp3"></audio>
+
+<table>
+
+<caption>course schedule</caption>
+
+<tr>
+
+    <th>Day</th>
+    <th>Place</th>
+
+</tr>
+
+<tr>
+<td colspan="2">sun mon 
+class B
+</td>
+
+</tr>
+
+<tr>
+    <td>tue wed</td>
+    <td>class A</td>
+    </tr>
+
+    <tr>
+        <td>Thu off</td>
+        
+        </tr>
+
+</table>
+<hr>
+
+<h2>Course register form</h2>
+
+<form action="">
+
+<label for="name">Name:</label>
+<input type="text" id="name">
+
+<p>Gender</p>
+<label for="male">Male</label>
+<input type="radio" name="male" id="male" name="gender">
+<label for="female">female</label>
+<input type="radio" name="male" id="female" name="gender">
+
+
+
+
+<p>Where did you hear about <strong>HTML</strong></p>
+
+<label for="friend">from friends</label>
+<input type="checkbox" name="friend" id="friend"> <br>
+
+<label for="Books">From Books</label>
+<input type="checkbox" name="Books" id="Books"> <br>
+
+<label for="Social Media">From Social Media</label>
+<input type="checkbox" name="Social Media" id="Social Media"> <br><br>
+
+<label for="city">Choose your <i>CITY</i></label><br>
+<select id="city" name="city">
+
+<option value="Jeddah">Jeddah</option>
+<option value="Riyadh">Riyadh</option>
+<option value="Dammam">Dammam</option>
+
+</select> <br><br>
+
+<input type="submit" value="Register">
+
+
+
+</form>
     </body>
 </html>
